@@ -1,0 +1,165 @@
+body{
+    background-color: white;
+    /* width: 100%; */
+}
+
+hr{
+    border-color: gray;
+    border-style: dotted none none;
+    border-width: 4px;
+    opacity: 0.75;
+    width: 35px;
+    margin: 25px auto 25px auto;
+}
+
+h1{
+    color: #145374;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white;
+}
+
+h3{
+    color: #cbeaed;
+    letter-spacing: 1px;
+}
+
+h4{
+    color: #434e52;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+/********** Class Selectors **********/
+
+
+.home{
+    background-color: #effffb;
+    /* background-color: #24a19c; */
+    text-align: center;
+    /* padding-top: 100px; */
+}
+
+.work{
+    background-color: #00587a;
+}
+
+.education{
+    background-color: #eeeeee;
+    background-image: url("Images/po-view.jpg");
+    padding-bottom: 50px;
+}
+
+.about{
+    background-color: #be5683;
+    padding-bottom: 50px;
+}
+
+.contact{
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.profile{
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+.profile-pic{
+    position: relative;
+    display: inline-block;
+    margin: 25px
+  }
+
+    .profile-img{
+        border-radius: 50%;
+        height: 225px;
+    }
+
+    .profile-text{
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .icon-button{
+        height: 40px;
+        opacity: 0.75;
+        padding-right: 7px;
+    }
+
+.header{
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.work-img{
+    text-align: center;
+}
+
+.sanomind-img{
+    height: 80px;
+}
+
+.work-text{
+    color: #cbeaed;
+    /* padding-right: 100px; */
+}
+
+.work-2{
+    text-align: right;
+}
+
+.work-row{
+    padding-bottom: 125px;
+}
+
+.tr-img{
+    height: 125px;
+}
+
+.pomona-img{
+    height: 150px;
+}
+
+.resume-btn{
+    justify-content: center;
+}
+
+.education-pomona{
+    align-content: center;
+    display: inline-block;
+    position: relative;
+}
+
+    .ed-img{
+        width: 100%;
+    }
+
+    .ed-row {
+        padding-bottom: 25px;
+    }
+
+
+.about-text{
+    background-color: #cff1ef;
+    color: black;
+    opacity: 0.7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    /* border-color: #1f4068;
+    border-width: 1px;
+    border-style: solid; */
+  }
+
+/********** Pseudo-Class Selectors **********/
+.icon-button:hover{
+    opacity: 0.4;
+  }

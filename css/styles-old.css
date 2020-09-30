@@ -1,0 +1,200 @@
+/********** Tag Selectors **********/
+
+body{
+  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+
+hr{
+  border-color: gray;
+  border-style: dotted none none;
+  border-width: 4px;
+  opacity: 0.75;
+  width: 35px;
+  margin: 25px auto 25px auto;
+}
+
+h1{
+  color: #3B6978;
+  letter-spacing: 1px;
+}
+
+h3{
+  color: #66BFBF;
+  letter-spacing: 1px;
+}
+
+h4{
+  color: #145374;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+/********** Class Selectors **********/
+
+
+.page{
+  /* height: 950px; */
+  margin: 0;
+  width: 100%;
+}
+
+    .page1{
+      background-color:  white;
+    }
+
+    .page2{
+      background-color: white;
+    }
+
+    .page3{
+      background-color: white;
+    }
+
+    .page4{
+      background-color: white;
+    }
+
+    .bottom{
+      background-color: #78c7c7;
+      text-align: center;
+      padding: 10px 0 10px 0;
+    }
+
+
+
+
+
+.icon-button{
+  height: 40px;
+  padding-right: 7px;
+  padding-left: 7px;
+  opacity: 0.75;
+}
+
+.circular{
+  border-radius: 50%;
+}
+
+.guitar{
+  background-color: green;
+}
+.piano{
+  background-color: blue;
+}
+
+.profile-div{
+  text-align: center;
+}
+
+    .profile-img{
+      height: 225px;
+    }
+
+    .profile-pic{
+      position: relative;
+      display: inline-block;
+      margin: 25px;
+    }
+
+    .profile-text{
+      /* position: relative; */
+      display: inline-block;
+      margin: 25px 25px 0 25px;
+      bottom: 30px;
+    }
+
+
+.link-buttons{
+  text-align: center;
+}
+
+    .links{
+      display: inline-block;
+      margin: 0 25px 0 25px;
+    }
+
+
+.about-div{
+  text-align: justify;
+  line-height: 1.5;
+  width: 75%;
+  margin: 50px auto 50px auto;
+}
+    .about-paragraph{
+      background-color: #75c4c4;
+      opacity: 0.7;
+      padding: 30px;
+    }
+
+
+.section-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+    .pomona-img{
+      width: 200px;
+    }
+
+    .cecil-img{
+      width: 200px;
+    }
+
+.skills-div{
+  padding: 25px;
+}
+
+.work-div{
+  padding: 25px;
+}
+
+
+/* TESTING */
+.test{
+  margin: 0 auto 0 auto;
+  width: 75%;
+}
+
+.test-block1{
+  display: inline-block;
+  /* background-color: #e0ece4; */
+  border-color: #145374;
+  border-style: solid;
+  width: 43%;
+}
+
+.test-block2{
+  display: inline-block;
+  width: 10%
+}
+
+.test-block3{
+  display: inline-block;
+  /* background-color: #e0ece4; */
+  border-color: #145374;
+  border-style: solid;
+  width: 43%;
+}
+
+.test-block-text{
+  text-align: center;
+  padding: 25px;
+}
+
+.ed-img{
+  display: inline-block;
+  width: 100px;
+}
+
+
+/********** Pseudo-Class Selectors **********/
+.icon-button:hover{
+  opacity: 0.4;
+}
+
+h4:hover{
+  opacity: 0.4;
+}
