@@ -41,22 +41,22 @@ h4{
 }
 
 .work{
-    background-color: #00587a;
+    background-color: #002B4A;
 }
 
 .education{
-    background-color: #eeeeee;
+    background-color: #FFF3EB;
     background-image: url("Images/po-view.jpg");
     padding-bottom: 50px;
 }
 
 .about{
-    background-color: #be5683;
+    background-color: #EEA191;
     padding-bottom: 50px;
 }
 
 .contact{
-    background-color: #eeeeee;
+    background-color: white;
     text-align: center;
     padding: 20px 0 20px 0;
 }
@@ -88,6 +88,10 @@ h4{
         opacity: 0.75;
         padding-right: 7px;
     }
+
+.mountain-img{
+    width: 100%;
+}
 
 .header{
     justify-content: center;
@@ -144,7 +148,7 @@ h4{
 
 
 .about-text{
-    background-color: #cff1ef;
+    background-color: #FEEFDE;
     color: black;
     opacity: 0.7;
     padding-top: 50px;
@@ -163,3 +167,11 @@ h4{
 .icon-button:hover{
     opacity: 0.4;
   }
+
+.work-img:hover{
+    opacity: 0.6;
+}
+
+.ed-img:hover{
+    opacity: 0.6;
+}
